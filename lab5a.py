@@ -15,6 +15,7 @@ def read_file_list(file_name):
     
     for r in range(len(read_data1)):
         read_data1[r] = read_data1[r].strip('\n')
+    f.close()
     return read_data1
     
 
